@@ -254,6 +254,49 @@ body {
 
 
 /* PORTFOLIO */
+/* filter */
+
+
+.filter-btn-list {
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.filter-btn-item + .filter-btn-item{
+  margin-left: 8px;
+}
+
+.filter-btn {
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+
+  border: 0;
+  background-color: var(--bgc-second);
+  color: #212121;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+}
+
+.small-btn {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color-hero);
+}
+
+
 /* preview */
 
 
